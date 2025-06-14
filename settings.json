@@ -1,0 +1,89 @@
+{
+    "[latex]": {
+        "editor.formatOnSave": false,
+    },
+    "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "editor.fontSize": 16,
+    "settingsSync.keybindingsPerPlatform": false,
+    "editor.mouseWheelZoom": true,
+    "notebook.markup.fontSize": 20,
+    "cSpell.enabled": true,
+    "cSpell.language": "en,ru",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4, UseTab: Never, ColumnLimit: 80 }",
+    "notebook.diff.enablePreview": false,
+    "notebook.dragAndDropEnabled": false,
+    "notebook.lineNumbers": "on",
+    "workbench.preferredDarkColorTheme": "GitHub Light",
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "cmake.copyCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "cmake.showOptionsMovedNotification": false,
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.configureOnOpen": false,
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "clangd.arguments": [
+        "--background-index",
+        "--enable-config",
+    ],
+    "clangd.checkUpdates": true,
+    "clangd.onConfigChanged": "restart",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "redhat.telemetry.enabled": true,
+    "workbench.colorTheme": "Vim Dark Medium",
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true
+    },
+    "clangd.path": "/Users/flamedragon/Library/Application Support/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
+    "comment-divider.length": 60,
+    "editor.tabSize": 2,
+    "cSpell.userWords": [
+        "Eigen",
+        "sqlmock",
+        "unmap"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.formatOnSaveMode": "modifications",
+    "clangd.fallbackFlags": [
+        "\"-I${workspaceFolder}/si-single-node/transactions\", \"-I${workspaceFolder}/si-single-node/\"",
+        "\"-I/usr/include/llvm-17\""
+    ],
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "vim.hlsearch": true,
+    "editor.smoothScrolling": true,
+    "rust-analyzer.checkOnSave": false,
+    "rust-analyzer.diagnostics.experimental.enable": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "lldb.suppressUpdateNotifications": true,
+    "haskell.toolchain": {
+        "ghc": "9.8.2"
+    },
+    "haskell.manageHLS": "GHCup",
+    "haskell.plugin.semanticTokens.globalOn": true,
+    "haskell.formattingProvider": "floskell",
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+    "yaml.schemaStore.enable": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.confirmDelete": false,
+    "notebook.formatOnCellExecution": true,
+    "vim.vimrc.enable": true,
+}
